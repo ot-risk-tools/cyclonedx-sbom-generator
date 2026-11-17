@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <!-- No network connections at all: everything stays in the browser -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'none'; form-action 'none'; base-uri 'none'">
+  <meta name="referrer" content="no-referrer">
+  <title>SBOM Generator for CycloneDX</title>
+  <meta name="description" content="CycloneDX-SBOM per Formular erstellen – Create a CycloneDX SBOM from a form. Runs entirely in the browser.">
+  <meta name="theme-color" content="#0f2a3d">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="app"></div>
+  <noscript><p style="padding:20px">Dieses Programm benötigt JavaScript. / This program needs JavaScript.</p></noscript>
+  <script src="js/i18n.js"></script>
+  <script src="js/cdx.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
